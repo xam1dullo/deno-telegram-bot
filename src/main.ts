@@ -7,8 +7,8 @@ app.use(expres.json());
 
 const PORT = 3000;
 const MONGO_URI =
-    // "mongodb+srv://khkhamidullo:0U7HwYK0kOWVIrdmsa@deno-bot.n6ycgor.mongodb.net/";
-    "mongodb://localhost:27017/node-telegram-bot";
+    "mongodb+srv://khkhamidullo:0U7HwYK0kOWVIrdmsa@deno-bot.n6ycgor.mongodb.net/";
+// "mongodb://localhost:27017/node-telegram-bot";
 
 function dev() {
     try {
